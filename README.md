@@ -3,8 +3,11 @@ In this challenge, the tables to hold the data from six CSV files are designed. 
 
 That is, the challenge involves:
 - Data modelling
+
 Inspecting the CSV files, and then sketching an ERD of the tables.
 - Data engineering 
+
 Creating a table schema for each of the six CSV files.
 - Data analysis
+
 Answering questions about the data.
