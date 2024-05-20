@@ -1,7 +1,7 @@
 -- Drop table if exists
 DROP TABLE IF EXISTS departments;
 
--- create a table departments
+-- Create a table departments
 CREATE TABLE departments (
   dept_no VARCHAR PRIMARY KEY,
   dept_name VARCHAR(30) NOT NULL
@@ -13,7 +13,7 @@ FROM departments
 -- Drop table if exists
 DROP TABLE IF EXISTS titles;
 
--- create a table titles
+-- Create a table titles
 CREATE TABLE titles (
   title_id VARCHAR PRIMARY KEY,
   title VARCHAR(30) NOT NULL
@@ -24,7 +24,7 @@ SELECT * FROM titles
 -- Drop table if exists
 DROP TABLE IF EXISTS employees;
 
--- create a table employees
+-- Create a table employees
 CREATE TABLE employees (
   emp_no INT PRIMARY KEY,
   emp_title_id VARCHAR(30) NOT NULL,
@@ -69,7 +69,7 @@ RENAME COLUMN hire_date_date TO hire_date;
 -- Drop table if exists
 DROP TABLE IF EXISTS salaries;
 
--- create a table salaries
+-- Create a table salaries
 CREATE TABLE salaries (
   emp_no INT NOT NULL,
   salary INT NOT NULL,
@@ -81,7 +81,7 @@ SELECT * FROM salaries
 -- Drop table if exists
 DROP TABLE IF EXISTS dept_emp;
 
--- create a table dept_emp
+-- Create a table dept_emp
 CREATE TABLE dept_emp (
   emp_no INT NOT NULL,
   dept_no VARCHAR(30)NOT NULL,
@@ -94,7 +94,7 @@ SELECT * FROM dept_emp
 -- Drop table if exists
 DROP TABLE IF EXISTS dept_manager;
 
--- create a table dept_manager
+-- Create a table dept_manager
 CREATE TABLE dept_manager (
   dept_no VARCHAR(30)NOT NULL,
   emp_no INT NOT NULL,
